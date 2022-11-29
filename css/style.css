@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
@@ -8,6 +8,10 @@ html {
   font-size: 62.5%;
 }
 
+.imagente__inicio {
+  max-width: 100%;
+}
+
 header {
   background-color: #1f1f1f;
   display: flex;
@@ -15,7 +19,7 @@ header {
 }
 
 .nav {
-  width: 90%;
+  width: 100%;
 }
 
 .nav__list {
@@ -48,29 +52,12 @@ body {
   padding: 1%;
 }
 
-.article__inicio {
-  display: flex;
-}
-
-.section__div--img {
-  background-color: #000b0d;
-  height: 75rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 12rem;
-}
-
 .section__frase {
   color: antiquewhite;
   text-align: center;
   padding: 4rem;
   font-size: 3rem;
   background-color: #1f1f1f;
-}
-
-.imagente__inicio {
-  max-width: 100%;
 }
 
 footer {
@@ -83,6 +70,43 @@ footer {
   color: antiquewhite;
   padding: 2rem;
   font-size: 1rem;
+}*/
+
+body {
+  font-family: "montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.carousel-inner {
+  max-height: 39rem;
+}
+
+/*---------------------------Media queries pantalla SM*/
+@media (max-width: 768) {
+  #intro {
+    width: 90% !important;
+  }
+}
+
+footer {
+  min-height: 100px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: white;
+  align-items: center;
 }
 /*pagina inicio*/
 
@@ -167,27 +191,12 @@ footer {
 
 /*inicio de pagina nosotros*/
 
-.article__nosotros {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+/*---------------------------Media queries pantalla SM*/
+@media (max-width: 768) {
+  #section-nosotros {
+    width: 90% !important;
+  }
 }
-
-.p__nosotros {
-  font-family: "Monserrat", sans-serif;
-  color: antiquewhite;
-  font-size: 4rem;
-  padding: 10rem;
-  background-color: #000b0d;
-}
-
-.h3__titulo {
-  color: antiquewhite;
-  text-align: center;
-  padding: 1%;
-}
-
-/*pagina nosotros*/
 
 /*pagina de contacto*/
 

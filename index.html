@@ -5,47 +5,176 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/logoomm.PNG" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <enlace href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@400;700;900 & display=swap" rel="stylesheet">
+    <enlace
+      href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@400;700;900 & display=swap"
+      rel="stylesheet"
+    ></enlace>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <title>Ommmburguerbeer</title>
   </head>
   <body>
-    <!-- comienza el header -->
+    <!----------------------------------------------------------------------------------->
+    <!-- comienza el nav -->
+    <!----------------------------------------------------------------------------------->
     <header>
-      <img class="imagen__logo" src="img/logoomm.PNG" alt="logo" />
-      <nav class="nav">
-      <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link" href="index.html">inicio</a></li>
-          <li>
-            <a class="nav__link" href="pages/nosotros.html">nosotros</a>
-          </li>
-          <li>
-            <a class="nav__link" href="pages/Contacto.html">Contacto</a>
-          </li>
-          <li><a class="nav__link" href="pages/menu.html">Menu</a></li>
-          <li>
-            <a class="nav__link" href="pages/sucursales.html">Sucursales</a>
-          </li>
-          <li>
-            <a class="nav__link" href="pages/Burguerdelmes.html">Burguer del mes</a
-            >
-          </li>
-        </ul>
-      </nav> 
+      <nav class="navbar navbar-expand-lg bg-dark p-4" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text-white fs-2 fw-bold">Ommmburguer</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  ><span class="h4 pb-2 mb-4 border-bottom border-warning"
+                    >Inicio</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">
+                  <span class="h4 pb-2 mb-4 border-bottom border-warning"
+                    >Nosotros</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/menu.html"
+                  ><span class="h4 pb-2 mb-4 border-bottom border-warning"
+                    >Menu</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/menu.html"
+                  ><span class="h4 pb-2 mb-4 border-bottom border-warning"
+                    >Sucursales</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/menu.html"
+                  ><span class="h4 pb-2 mb-4 border-bottom border-warning"
+                    >Contacto</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/menu.html"
+                  ><span class="h4 pb-2 mb-4 border-bottom border-warning"
+                    >Burguer del mes</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <!--termina el header -->
-    <h1 class="titulo__principal">Ommm burguer</h1>
-    <main>
-      <h2 class="section__frase">No podes comprar la felicidad pero si una hamburguesa de ommm</h2>
-      <article class="article__inicio">
-        <section class="section__div--img">
-            <img class="imagente__inicio" src="img/burguers/SmartSelect_20221115_215802_Instagram.png" alt="hamburguesa" />
-            <!--en la imagen esta van a haber varias despues y van a ir cambiando como un carrousel de fotos -->
-        </section>
-      </article>
-    </main>
+    <!----------------------------------------------------------------------------------->
+    <!--carousel img -->
+    <!----------------------------------------------------------------------------------->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/burguers/prueba2.jpg"
+            class="d-block w-100"
+            alt="img-burguer"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/burguers/prueba3.jpg"
+            class="d-block w-100"
+            alt="img-burguer"
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="img/burguers/prueba2.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!----------------------------------------------------------------------------------->
+    <!--intro-->
+    <!----------------------------------------------------------------------------------->
+    <div class="bg-dark">
+      <section class="bg-dark w-50 mx-auto text-center" id="intro">
+        <h1 class="text-light p-3 fs-2 border-3">
+          No podes comprar la felicidad pero si una hamburguesa de
+          <span class="text-warning">Ommm</span>
+        </h1>
+        <p class="text-light p-3 fs-4">
+          Cuando pruebes nuestras hamburguesas por primera vez nunca mas te vas
+          a olvidar ese dia tan especial
+        </p>
+      </section>
+    </div>
+    <!----------------------------------------------------------------------------------->
+    <!--footer-->
+    <!----------------------------------------------------------------------------------->
+    <footer
+      class="w-100 bg-dark d-flex aling-items-center justify-content-center flex-wrap p-4"
+    >
+      <p class="fs-5 px-3 pt-3">
+        Ommmburguer. &copy; Todos los derechos reservados 2022
+      </p>
+      <div id="iconos">
+        <a href=""><i class="bi bi-whatsapp"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+      </div>
+    </footer>
+    <!----------------------------------------------------------------------------------->
+    <!-- JavaScript Bundle with Popper -->
+    <!----------------------------------------------------------------------------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <footer>
-    <p class="footer__copyright">&copy; Copyright/Thomás Sanchez 2022</p>
-  </footer>
 </html>
