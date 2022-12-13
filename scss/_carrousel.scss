@@ -1,0 +1,10 @@
+.carousel-inner {
+  max-height: 39rem;
+}
+
+/*---------------------------Media queries pantalla SM*/
+@media (max-width: 768) {
+  #intro {
+    width: 90% !important;
+  }
+}
