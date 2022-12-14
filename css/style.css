@@ -21,6 +21,8 @@ body {
   color: black;
 }
 
+/*--------------------------CAROUSEL----------------------------------------*/
+
 .carousel-inner {
   max-height: 39rem;
 }
@@ -80,5 +82,28 @@ footer #iconos i {
 }
 
 /*--------------------------SUCURSALES----------------------------------------*/
+
+/*---------------------------Media queries pantalla SM*/
+@media (max-width: 768) {
+  #section-sucursales {
+    width: 90% !important;
+  }
+}
+
+/*--------------------------CONTACTO----------------------------------------*/
+
+@media (max-width: 768) {
+  #section-contac {
+    width: 90% !important;
+  }
+}
+
+/*--------------------------BURGUER DEL MES----------------------------------------*/
+
+@media (max-width: 768) {
+  #section-mes {
+    width: 90% !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="veni a conocer nuestra burguer del mes" />
+    <meta
+      name="keywords content=burguer del mes, hamburguesas nuevas, hamburguesas variadas"
+    />
     <title>Burguer del mes</title>
     <link rel="shortcut icon" href="../img/logoomm.PNG" type="image/x-icon" />
     <link
@@ -96,28 +100,70 @@
       </nav>
     </header>
     <!--fin del header-->
-    <main>
-      <section class="section-burguerdelmes">
-        <h3 class="h3__titulo">Burguer del mes</h3>
-        <h2 class="h2__subtitulo">
-          La Michael Jordan fue elegida como burguer del mes
-        </h2>
-        <article class="article-mes">
+    <!----------------------------------------------------------------------------------->
+    <!--carousel img -->
+    <!----------------------------------------------------------------------------------->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
           <img
-            class="img__burguerdelmes"
-            src="../img/burguers/SmartSelect_20221115_215802_Instagram.png"
-            alt="hamburguesa"
+            src="../img/burguers/Img-carrousel-1.jpg"
+            class="d-block w-100"
+            alt="Burguerdelmes"
           />
-          <ul class="list-mes">
-            <li>- 2 medallónes de 120gr</li>
-            <li>- cheddar x4</li>
-            <li>- bacon x4</li>
-            <li>- aros de cebolla</li>
-            <li>- bbq Jack Daniel’s</li>
-          </ul>
-        </article>
-      </section>
-    </main>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="../img/burguers/Img-carrousel-2.jpg"
+            class="d-block w-100"
+            alt="burguerdelmes"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="../img/burguers/Img-carrousel-1.jpg"
+            class="d-block w-100"
+            alt="burguerdelmes"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!----------------------------------------------------------------------------------->
+    <!--INTRO-->
+    <!----------------------------------------------------------------------------------->
+    <section class="bg-dark" id="section-mes">
+      <h1 class="bg-dark text-light text-center p-3">La burguer del mes</h1>
+      <p class="text-light text-center fs-1 p-4">
+        Este mes le toco a <span class="text-warning"> La scaloneta</span> esta
+        hamburguesa trae adentro doble carne, queso danbo, provoleta crocante,
+        criolla de la casa, huevo y mayo-chimi. En este mes bien mundialista que
+        mejor que sacar una hamburguesa para representar a nuestra querida
+        seleccion que este peleando el mundial en qatar veni a probar nuestra
+        nueva hamburguesa y llevate un sticker olografico de regalo.
+      </p>
+    </section>
     <!----------------------------------------------------------------------------------->
     <!--footer-->
     <!----------------------------------------------------------------------------------->
