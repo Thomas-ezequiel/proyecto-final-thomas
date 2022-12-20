@@ -1,5 +1,4 @@
 /*--------------------------INDEX----------------------------------------*/
-
 body {
   font-family: "montserrat", sans-serif;
   overflow-x: hidden;
@@ -21,18 +20,10 @@ body {
   color: black;
 }
 
-/*--------------------------CAROUSEL----------------------------------------*/
-
 .carousel-inner {
   max-height: 39rem;
 }
 
-/*---------------------------Media queries pantalla SM*/
-@media (max-width: 768) {
-  #intro {
-    width: 90% !important;
-  }
-}
 footer {
   min-height: 100px;
 }
@@ -47,63 +38,65 @@ footer #iconos i {
   align-items: center;
 }
 
-/*--------------------------NOSOTROS----------------------------------------*/
-
+/*--------------------------mediaqueries----------------------------------------*/
+/*---------------------------INDEX MQ------------------------------*/
+/*---------------------------Media queries pantalla SM*/
+@media (max-width: 768) {
+  #intro {
+    width: 90% !important;
+  }
+}
+/*---------------------------NOSOTROS MQ------------------------------*/
 /*---------------------------Media queries pantalla SM*/
 @media (max-width: 768) {
   #section-nosotros {
     width: 90% !important;
   }
 }
-
-/*--------------------------MENÚ----------------------------------------*/
+/*---------------------------SUCURSALES MQ------------------------------*/
+@media (max-width: 768) {
+  #section-sucursales {
+    width: 90% !important;
+  }
+}
+/*---------------------------CONTACTO MQ------------------------------*/
+@media (max-width: 768) {
+  #section-contac {
+    width: 90% !important;
+  }
+}
+/*---------------------------BURGUER DEL MES MQ------------------------------*/
+@media (max-width: 768) {
+  #section-mes {
+    width: 90% !important;
+  }
+}
+/*--------------------------MENU----------------------------------------*/
+.sec-menu {
+  background-color: #1f1f1f;
+}
 
 .tarjeta {
   border: 2px #a69026 solid;
   border-radius: 5px;
   background-color: #1f1f1f;
 }
-.div-menu {
+.tarjeta .div-menu {
   display: flex;
   justify-content: center;
   padding-right: 25px;
 }
-.list-menu {
+.tarjeta .div-menu .list-menu {
   list-style: none;
   color: antiquewhite;
 }
-
-.texto-relleno {
+.tarjeta .div-menu .list-menu .texto-relleno {
   color: #1f1f1f;
 }
 
-.sec-menu {
-  background-color: #1f1f1f;
-}
-
-/*--------------------------SUCURSALES----------------------------------------*/
-
-/*---------------------------Media queries pantalla SM*/
-@media (max-width: 768) {
-  #section-sucursales {
-    width: 90% !important;
-  }
-}
-
-/*--------------------------CONTACTO----------------------------------------*/
-
-@media (max-width: 768) {
-  #section-contac {
-    width: 90% !important;
-  }
-}
-
-/*--------------------------BURGUER DEL MES----------------------------------------*/
-
-@media (max-width: 768) {
-  #section-mes {
-    width: 90% !important;
-  }
+/*--------------------------NOSOTROS----------------------------------------*/
+#section-nosotros {
+  font-family: "montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

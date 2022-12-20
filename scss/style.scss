@@ -5,6 +5,19 @@
 @import "carrousel";
 @import "footer";
 
+/*--------------------------mediaqueries----------------------------------------*/
+
+@import "media";
+
+/*--------------------------MENU----------------------------------------*/
+
+@import "bgmenu";
+@import "cards";
+
+$fuente: "montserrat", sans-serif;
+
 /*--------------------------NOSOTROS----------------------------------------*/
 
-@import "nosotros";
+#section-nosotros {
+  font-family: $fuente;
+}

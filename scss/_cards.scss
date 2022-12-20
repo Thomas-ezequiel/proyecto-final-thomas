@@ -1,0 +1,20 @@
+.tarjeta {
+  border: 2px #a69026 solid;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+
+  .div-menu {
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+
+    .list-menu {
+      list-style: none;
+      color: antiquewhite;
+
+      .texto-relleno {
+        color: #1f1f1f;
+      }
+    }
+  }
+}
